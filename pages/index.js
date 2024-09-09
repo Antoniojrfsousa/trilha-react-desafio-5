@@ -8,7 +8,7 @@ import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
-export default function Index({ posts, globalData }) {
+export default function Index({ posts, globalData, getPostBySlug }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
